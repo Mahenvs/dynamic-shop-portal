@@ -1,0 +1,34 @@
+.header{
+    height: 8vh;
+    background: linear-gradient(90deg, rgb(236, 219, 226) 0%, rgb(181, 5, 58) 35%,  rgb(121, 9, 43) 64%,  rgb(36, 0, 0)  100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    /* position: fixed; */
+    width: 100%;
+    
+    /* position: sticky; */
+    /* width: 80vw; */
+    /* margin-left: 10vw; */
+}
+
+.header span{
+    position: relative;
+    margin-left:  5vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.header section{
+    margin-right: 5vw;
+    cursor: pointer;
+}
+
+.shop_image{
+    object-fit: contain;
+    margin: 10px;
+    /* padding: 10px; */
+}

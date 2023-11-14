@@ -1,0 +1,8 @@
+.sideNav{
+    display: flex;
+    height: 100vh;
+    width: 10vw;
+    flex-direction: column;
+    background-color: rgb(225, 65, 89);
+    /* position: absolute; */
+}
